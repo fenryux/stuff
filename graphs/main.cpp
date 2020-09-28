@@ -4,6 +4,7 @@
 
 void initialize(std::vector<std::vector<int>> &vec, int n);
 void dijkstras(const std::vector<std::vector<int>> &graph, int* distance, bool* vertex, int start);
+void dfs(int v, int from);
 
 int main(){
 
@@ -21,7 +22,7 @@ int main(){
     for(int i = 0; i < vertex_n; i++)
         distance[i] = MAX;
 
-    initialize(graph,vertex_n);
+    initialize(graph,vertex_n); // инициализация графа нулями
 
     std::cout << "Enter graph type (1 - oriented, 0 - unoriented): ";
     std::cin >> graph_type;
@@ -61,7 +62,15 @@ int main(){
     std::cout << "Enter start vertex: ";
     std::cin >> temp;
 
-    dijkstras(graph,distance,vertex,temp);
+    dijkstras(graph,distance,vertex,temp); // поиск кратчайшего пути от стартовой вершины ко всем остальным алг. Дейкстры
+    for(int i = 0; i<vertex_n;i++) {
+        if(distance[i] == MAX || distance[i] == 0)
+            std:: cout << i + 1 << " - " << "no path available" << std::endl;
+        else
+            std:: cout << i + 1 << " - " << distance[i] << std::endl;
+    }
+
+    
     for(int i = 0; i<vertex_n;i++) {
         if(distance[i] == MAX || distance[i] == 0)
             std:: cout << i + 1 << " - " << "no path available" << std::endl;
@@ -87,6 +96,7 @@ void initialize(std::vector<std::vector<int>> &vec, int n){
 }
 
 void dijkstras(const std::vector<std::vector<int>> &graph, int* distance, bool* vertex, int start){
+
     distance[start-1] = 0;
 
     int min_index;
@@ -118,4 +128,8 @@ void dijkstras(const std::vector<std::vector<int>> &graph, int* distance, bool* 
             vertex[min_index] = true;
         }
     } while(min_index < MAX);
+}
+
+void dfs(int v, int from){
+
 }
