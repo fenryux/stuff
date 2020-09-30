@@ -6,9 +6,12 @@ class Graph{
 private:
     std::vector<std::vector<int>> graph;
     int graph_size;
+    int max_path_to;
+    int min_path_to;
 public:
     Graph(int size); // инициализация графа
-    void initialize();
-    void DFS(int v, int from);
-    void dijkstras(int* distance, bool* vertex, int start); // для поиска кратчайшего пути ко всем вершинам
+    void initialize(); // заполнение графа матрицой смежности
+    void find_max(int start, int end); // поиск в глубину длиннейшего пути
+    void find_min(int start, int end); // для поиска кратчайшего пути ко всем вершинам
+    void print_minmax_path();
 };
