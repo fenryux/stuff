@@ -8,6 +8,7 @@ private:
     int graph_size;
     int max_path_to;
     int min_path_to;
+    bool* vertex;
 public:
     Graph(int size); // инициализация графа
     void initialize(); // заполнение графа матрицой смежности

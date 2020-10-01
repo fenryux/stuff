@@ -9,40 +9,34 @@ Graph::Graph(int size){
     
     max_path_to = 0;
     min_path_to = MAX;
+    vertex = new bool[size];
 
     std::vector<int> subvec;
     for(int i = 0;i < graph_size; i++){
         for(int j = 0;j < graph_size; j++)
             subvec.push_back(0);
         graph.push_back(subvec);
+        vertex[i] = false;
         subvec.clear();
     }
 }
 
 void Graph::find_max(int start, int end){
-    static short Fmax = 0;
-    static std::string Last;
-    short v3 = 0;
-    if(start == end){
-        if(Fmax > max_path_to)
-            max_path_to = Fmax;
-    } else{
-        for(short i = 0; i < graph.size(); i++) {
-           if(((start-1)*graph.size())+i != ((start-1)*graph.size())+(end-1)){
-               if(graph[start-1][i] == 1 && Last.find(i+1) == -1 ){
-                   Fmax++;
-                   v3 = i+1;
-                   Last += start;
-                   find_max(i++,end);
-                   Fmax--;
-                   Last.pop_back();
-               }
-           }
-
+    static int local_max = 0;
+    if(start == end)
+        if(local_max > max_path_to)
+            max_path_to = local_max;
+    else{
+    vertex[start] = true;
+        for(int i=0; i < graph_size;i++){
+            if(!vertex[i] && graph[start][i] != 0){
+                local_max ++;
+                find_max(i,end);
+            }
         }
-        Fmax++;
+        local_max++;
         find_max(end,end);
-        Fmax--;
+        local_max--;
     }
 }
 

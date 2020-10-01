@@ -16,7 +16,7 @@ int main(){
     std::cout << "Enter start and end vertex: ";
     std::cin >> start >> end;
 
-    graph.find_max(start,end);
+    graph.find_max(start-1,end-1);
     graph.find_min(start,end);
 
     graph.print_minmax_path();
