@@ -2,6 +2,7 @@
 
 #include <iostream>
 using namespace std;
+
 Graph::Graph(int V) 
 { 
     this->V = V; 
@@ -49,13 +50,12 @@ void Graph::printAllPathsUtil(int u, int d, bool visited[],
   
     // Если текущая вершина является конечной вершиной, то вывести путь и выбрать макс./мин. путь
     if (u == d) { 
-        for (int i = 0; i < path_index; i++) 
-            cout << ++path[i] << " ";
+        // for (int i = 0; i < path_index; i++) 
+        //     cout << ++path[i] << " ";
         if(path_index > max_path)
             max_path = path_index;
         if(path_index < min_path)
             min_path = path_index;
-        cout << endl; 
     } 
     else // Если текущая вершина не является конечной
     { 
