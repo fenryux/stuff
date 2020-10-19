@@ -13,5 +13,5 @@ class Graph {
 public: 
     Graph(int V);
     void addEdge(int u, int v); 
-    void printAllPaths(int s, int d); 
+    void printAllPaths(int s, int d);
 }; 

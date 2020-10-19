@@ -1,0 +1,13 @@
+D:\Projects\stuff\Graphs_cycles\bin\Debug\netcoreapp3.1\Graphs_cycles.exe
+D:\Projects\stuff\Graphs_cycles\bin\Debug\netcoreapp3.1\Graphs_cycles.deps.json
+D:\Projects\stuff\Graphs_cycles\bin\Debug\netcoreapp3.1\Graphs_cycles.runtimeconfig.json
+D:\Projects\stuff\Graphs_cycles\bin\Debug\netcoreapp3.1\Graphs_cycles.runtimeconfig.dev.json
+D:\Projects\stuff\Graphs_cycles\bin\Debug\netcoreapp3.1\Graphs_cycles.dll
+D:\Projects\stuff\Graphs_cycles\bin\Debug\netcoreapp3.1\Graphs_cycles.pdb
+D:\Projects\stuff\Graphs_cycles\obj\Debug\netcoreapp3.1\Graphs_cycles.csprojAssemblyReference.cache
+D:\Projects\stuff\Graphs_cycles\obj\Debug\netcoreapp3.1\Graphs_cycles.AssemblyInfoInputs.cache
+D:\Projects\stuff\Graphs_cycles\obj\Debug\netcoreapp3.1\Graphs_cycles.AssemblyInfo.cs
+D:\Projects\stuff\Graphs_cycles\obj\Debug\netcoreapp3.1\Graphs_cycles.csproj.CoreCompileInputs.cache
+D:\Projects\stuff\Graphs_cycles\obj\Debug\netcoreapp3.1\Graphs_cycles.dll
+D:\Projects\stuff\Graphs_cycles\obj\Debug\netcoreapp3.1\Graphs_cycles.pdb
+D:\Projects\stuff\Graphs_cycles\obj\Debug\netcoreapp3.1\Graphs_cycles.genruntimeconfig.cache

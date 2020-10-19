@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/Projects/stuff/quick_sort/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\quicksort.dir\\main.cpp.obj -c D:\\Projects\\stuff\\quick_sort\\main.cpp",
+  "file": "D:/Projects/stuff/quick_sort/main.cpp"
+}
+]

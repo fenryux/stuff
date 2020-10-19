@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Projects/stuff/graphs_dfs/graph.cpp
+graph.h
+D:/Projects/stuff/graphs_dfs/graph.h
+iostream
+-
+
+D:/Projects/stuff/graphs_dfs/graph.h
+list
+-
+
+D:/Projects/stuff/graphs_dfs/main.cpp
+iostream
+-
+vector
+-
+graph.h
+D:/Projects/stuff/graphs_dfs/graph.h
+

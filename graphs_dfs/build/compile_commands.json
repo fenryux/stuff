@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/Projects/stuff/graphs_dfs/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\graphs.dir\\main.cpp.obj -c D:\\Projects\\stuff\\graphs_dfs\\main.cpp",
+  "file": "D:/Projects/stuff/graphs_dfs/main.cpp"
+},
+{
+  "directory": "D:/Projects/stuff/graphs_dfs/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\graphs.dir\\graph.cpp.obj -c D:\\Projects\\stuff\\graphs_dfs\\graph.cpp",
+  "file": "D:/Projects/stuff/graphs_dfs/graph.cpp"
+}
+]
