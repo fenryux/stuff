@@ -1,0 +1,13 @@
+D:\Projects\stuff\graphs_connected_component\bin\Debug\netcoreapp3.1\graphs_connected_component.exe
+D:\Projects\stuff\graphs_connected_component\bin\Debug\netcoreapp3.1\graphs_connected_component.deps.json
+D:\Projects\stuff\graphs_connected_component\bin\Debug\netcoreapp3.1\graphs_connected_component.runtimeconfig.json
+D:\Projects\stuff\graphs_connected_component\bin\Debug\netcoreapp3.1\graphs_connected_component.runtimeconfig.dev.json
+D:\Projects\stuff\graphs_connected_component\bin\Debug\netcoreapp3.1\graphs_connected_component.dll
+D:\Projects\stuff\graphs_connected_component\bin\Debug\netcoreapp3.1\graphs_connected_component.pdb
+D:\Projects\stuff\graphs_connected_component\obj\Debug\netcoreapp3.1\graphs_connected_component.csprojAssemblyReference.cache
+D:\Projects\stuff\graphs_connected_component\obj\Debug\netcoreapp3.1\graphs_connected_component.AssemblyInfoInputs.cache
+D:\Projects\stuff\graphs_connected_component\obj\Debug\netcoreapp3.1\graphs_connected_component.AssemblyInfo.cs
+D:\Projects\stuff\graphs_connected_component\obj\Debug\netcoreapp3.1\graphs_connected_component.csproj.CoreCompileInputs.cache
+D:\Projects\stuff\graphs_connected_component\obj\Debug\netcoreapp3.1\graphs_connected_component.dll
+D:\Projects\stuff\graphs_connected_component\obj\Debug\netcoreapp3.1\graphs_connected_component.pdb
+D:\Projects\stuff\graphs_connected_component\obj\Debug\netcoreapp3.1\graphs_connected_component.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "qsort_cs/1.0.0": {
+        "runtime": {
+          "qsort_cs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "qsort_cs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

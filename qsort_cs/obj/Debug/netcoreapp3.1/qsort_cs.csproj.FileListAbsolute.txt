@@ -1,0 +1,13 @@
+D:\Projects\stuff\qsort_cs\bin\Debug\netcoreapp3.1\qsort_cs.exe
+D:\Projects\stuff\qsort_cs\bin\Debug\netcoreapp3.1\qsort_cs.deps.json
+D:\Projects\stuff\qsort_cs\bin\Debug\netcoreapp3.1\qsort_cs.runtimeconfig.json
+D:\Projects\stuff\qsort_cs\bin\Debug\netcoreapp3.1\qsort_cs.runtimeconfig.dev.json
+D:\Projects\stuff\qsort_cs\bin\Debug\netcoreapp3.1\qsort_cs.dll
+D:\Projects\stuff\qsort_cs\bin\Debug\netcoreapp3.1\qsort_cs.pdb
+D:\Projects\stuff\qsort_cs\obj\Debug\netcoreapp3.1\qsort_cs.csprojAssemblyReference.cache
+D:\Projects\stuff\qsort_cs\obj\Debug\netcoreapp3.1\qsort_cs.AssemblyInfoInputs.cache
+D:\Projects\stuff\qsort_cs\obj\Debug\netcoreapp3.1\qsort_cs.AssemblyInfo.cs
+D:\Projects\stuff\qsort_cs\obj\Debug\netcoreapp3.1\qsort_cs.csproj.CoreCompileInputs.cache
+D:\Projects\stuff\qsort_cs\obj\Debug\netcoreapp3.1\qsort_cs.dll
+D:\Projects\stuff\qsort_cs\obj\Debug\netcoreapp3.1\qsort_cs.pdb
+D:\Projects\stuff\qsort_cs\obj\Debug\netcoreapp3.1\qsort_cs.genruntimeconfig.cache
